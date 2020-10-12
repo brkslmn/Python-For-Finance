@@ -1,0 +1,3 @@
+[console_scripts]
+vardbg=vardbg.main:main
+

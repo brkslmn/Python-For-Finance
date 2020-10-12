@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: fix-yahoo-finance
+Version: 0.1.37
+Summary: Yahoo! Finance market data downloader +fix for Pandas Datareader's get_data_yahoo()
+Home-page: https://github.com/ranaroussi/fix-yahoo-finance
+Author: Ran Aroussi
+Author-email: ran@aroussi.com
+License: Apache
+Description: ``fix_yahoo_finance`` was renamed to ``yfinance``
+        =================================================
+        
+        This library was renamed to ``yfinance``.
+        For reasons of backward-competability, this library is importing
+        and using ``yfinance`` - but you should install and use
+        ``yfinance`` directly.
+        
+        ### 1. Install using ``pip``:
+        
+        .. code:: bash
+        
+            $ pip install yfinance --upgrade --no-cache-dir
+        
+        
+        ### 2. Change your code to import ``yfinance`` instead of ``fix_yahoo_finance``:
+        
+        .. code:: python
+        
+            import yfinance as yf
+        
+        
+        
+Keywords: pandas,yahoo finance,pandas datareader
+Platform: any
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
