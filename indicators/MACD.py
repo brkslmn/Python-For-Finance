@@ -5,7 +5,7 @@ from matplotlib import style
 
 style.use('ggplot')
 
-df = pd.read_csv("TEKTU.IS.csv")
+df = pd.read_csv("..")
 df = df.dropna()
 
 closes = df["Close"]
