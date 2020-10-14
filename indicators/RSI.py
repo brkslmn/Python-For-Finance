@@ -5,7 +5,7 @@ import matplotlib.path as mpath
 import matplotlib.patches as mpatches
 import numpy as np
 
-df = pd.read_csv("TEKTU.IS.csv")
+df = pd.read_csv("..")
 close = df['Close']
 
 rsi_period = 14 
