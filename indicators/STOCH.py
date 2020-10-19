@@ -8,10 +8,6 @@ style.use('ggplot')
 df = pd.read_csv("..")
 
 
-
-#k = 100 * (df['Close'] - min(lows)) / (max(highs) - min(lows))
-#d = k.ewm(span = 3, adjust=False).mean()
-
 intersection = []
 
 def stochastics( dataframe, low, high, close, k, d ):
